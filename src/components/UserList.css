@@ -1,0 +1,158 @@
+.main-container {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.user-container {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  padding: 2rem;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.search-sort {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 3rem;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.list-item {
+  list-style: none;
+}
+
+.search-history {
+  width: 40%;
+  padding: 0.3rem 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.search-bar {
+
+  width: 100%;
+  padding: 0.3rem 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.3rem;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 3px 3px 5px black;
+
+
+}
+
+
+.search-input {
+  width: 100%;
+  border: none;
+  outline: none;
+  font-size: 1.5rem;
+  background-color: transparent;
+}
+
+#search-icon {
+  background-color: transparent;
+  color: royalblue;
+  font-size: 1.2rem;
+
+}
+
+.container-btn {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+  gap: 2rem;
+}
+
+.btn {
+  width: 20%;
+  height: 3rem;
+  border: none;
+  font-size: 1.5rem;
+  color: white;
+}
+
+.sort-btn {
+  background-color: royalblue;
+  border-radius: 10px;
+  padding: 0.5rem;
+  text-align: center;
+  cursor: pointer;
+}
+
+.sort-btn:hover {
+  opacity: 0.8;
+}
+
+.clear-btn {
+  background-color: red;
+  border-radius: 10px;
+  padding: 0.5rem;
+  text-align: center;
+  cursor: pointer;
+
+}
+
+.clear-btn:hover {
+  opacity: 0.8;
+}
+
+
+@media only screen and (max-width: 900px) {
+  .btn {
+    width: 28%;
+
+  }
+
+  .search-history {
+    width: 60%;
+
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .btn {
+    width: 35%;
+
+  }
+
+  .search-history {
+    width: 80%;
+
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .container-btn {
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  .btn {
+    width: 40%;
+
+  }
+}
+
+@media only screen and (max-width: 480px) {
+
+  .btn {
+    width: 60%;
+
+  }
+}

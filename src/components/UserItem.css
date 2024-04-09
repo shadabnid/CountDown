@@ -1,0 +1,35 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 3px 3px  white;
+    border-radius: 1rem;
+    width: 20rem;
+    height: 15rem;
+    padding: 1rem;
+    gap: 1rem;
+    color: rgb(181, 178, 178);
+
+}
+
+.card,
+.card h2,
+.card p,
+.card p span {
+    background-color: #333333;
+}
+
+.card span {
+    font-weight: 600;
+}
+
+h2 {
+    text-align: center;
+}
+
+@media only screen and (max-width: 719px) {
+    .card {
+        width: 30rem;
+
+    }
+
+}

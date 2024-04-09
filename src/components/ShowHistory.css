@@ -1,0 +1,20 @@
+.history-container {
+    width: 100%;
+    background-color: white;
+    overflow-y: scroll;
+    z-index: 10;
+    max-height: 200px;
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+li {
+    list-style: none;
+    font-size: 1.2rem;
+    font-weight: 500;
+    background-color: white;
+}
+h4{
+    text-align: center;
+    background-color: white;
+}
